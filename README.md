@@ -1,4 +1,4 @@
-# Simulations for the Paper **Cascaded Multiwire-PLC/Multiple-VLC System: Characterization and Performance**
+# Simulations for the Paper **Joint Power Control and Beam Steering for NGSO-to-GSO Interference Mitigation in Ku Band**
 
 This repository contains the code and simulations used to generate the results presented in the paper **Joint Power Control and Beam Steering for NGSO-to-GSO Interference Mitigation in Ku Band**. The figures and data shown in the paper are reproduced using a Jupyter notebook **simulations.ipynb** that calls functions and classes defined in a custom Python package called **epfd_analysis**.
 
@@ -7,7 +7,7 @@ This repository contains the code and simulations used to generate the results p
 - [Luciana R. N. Ferreira](lucianarn@anatel.gov.br) - [Spectrum, Orbit and Broadcasting Division, Anatel, Brasília, Brazil]
 - [Higo T. P. Silva](higo.silva@unb.br) - [University of Brasília, Federal District, Brazil]
 - [Hugerles S. Silva](hugerles.silva@unb.br) - [University of Brasília, Federal District, Brazil]
-- [Paulo Henrique Portela de  Carvalho](paulo@ene.unb.br) - [University of Campina Grande, Paraíba, Brazil]
+- [Paulo Henrique Portela de  Carvalho](paulo@ene.unb.br) - [University of Brasília, Federal District, Brazil]
 
 ## Repository Structure
 
@@ -53,7 +53,7 @@ This repository contains the code and simulations used to generate the results p
    jupyter notebook paper_simulations.ipynb
    ```
 
-## About the `mplcvlc` Package
+## About the `kuepfd` Package
 
 The `kuepfd/` folder contains a Python package with helper implementations used in the notebook, including functions for modeling and data generation.
 
